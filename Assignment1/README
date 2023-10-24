@@ -1,0 +1,6 @@
+The code to compile the 2 files are -
+gcc -o ques1d ques1d.c -lm
+./ques1d
+
+gcc -o ques2e ques2e.c -lm
+./ques2e
