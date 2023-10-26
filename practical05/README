@@ -1,0 +1,9 @@
+To compile the codes, run the following commands -
+gcc -o scanf scanf.c -Wall
+./scanf
+
+gcc -o fibonacci fibonacci.c -Wall
+./fibonacci
+
+gcc -o arct arct.c -lm -Wall
+./arct

@@ -1,3 +1,0 @@
-To compile the code for Practical04, run the below command - 
-gcc -o trap trap.c -lm -Wall
-./trap
