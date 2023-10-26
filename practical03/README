@@ -1,0 +1,3 @@
+These are the codes for Practical03. To compile:
+gcc -o use_printf use_printf.c
+gcc -o trap trap.c -lm
