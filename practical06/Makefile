@@ -1,0 +1,12 @@
+CC = gcc
+CCFLAGS = -O3
+LDFLAGS = -lm
+
+matmulc: main.o matmult.o
+	$(CC) -o matmultc main.o matmult.o $(LDFLAGS)
+
+matmult.o : matmult.c
+	$(CC) -c $(CCFLAGS) matmult.c
+
+main.o : main.c
+	$(CC) -c $(CCFLAGS) main.c
