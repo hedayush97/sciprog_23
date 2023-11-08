@@ -1,0 +1,6 @@
+To compile the 2 files, us the following codes - 
+gcc -c finde finde.c -wall
+./finde
+
+gcc -c dynamic dynamicallocation.c -Wall
+./dynmaic
