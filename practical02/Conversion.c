@@ -16,6 +16,8 @@ int main(void) {
 
 /* Convert to binary number (string)*/
    i = 0; tmp = inum;
+
+/* Create a while loop for running all the numbers*/
    while (tmp > 0) {
      sprintf(&binnum[i],"%1d",tmp%2);
      tmp = tmp/2;
@@ -30,7 +32,7 @@ int main(void) {
    numdigits = ceil(logf(inum)/logf(2));
    printf("The number of digits is %d\n",numdigits);
 
-
+/* Print the numbers*/
    printf("inum=%d,  fnum=%f, inum in binary=%s\n",
       inum,fnum,binnum);
    return 0;
