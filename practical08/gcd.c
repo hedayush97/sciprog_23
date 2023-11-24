@@ -1,5 +1,6 @@
 #include<stdio.h>
 
+// Function for gcd interation
 int gcd_iteration(int a, int b){
     int temp;
     while (b!=0)
@@ -11,6 +12,7 @@ int gcd_iteration(int a, int b){
     return a;
 }
 
+// Functionf gcd recursive
 int gcd_recursive(int a, int b){
     if(b==0)
     {
@@ -22,6 +24,8 @@ int gcd_recursive(int a, int b){
     }
 }
 
+
+ // Call both the functions
 int main(void){
     int a = 5;
     int b = 25;
@@ -29,6 +33,7 @@ int main(void){
     int ans_r = gcd_recursive(a, b);
     int ans_i = gcd_iteration(a, b);
 
+    // Print the answers from the functions
     printf("Using iteration, we get the answer: %d\n", ans_i);
     printf("Using recursion, we get the answer: %d\n", ans_r);
     return 0;
