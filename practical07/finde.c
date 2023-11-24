@@ -31,12 +31,13 @@ int main(void){
     }
 
     free(terms);
-
+    // print estimation of e
     printf("e is estimated as %.10lf, with difference %e\n", e, e-exp(1.0));
 
     return 0;
 }
 
+// function for factorial calculation
 int factorial(int n){
     if(n<0){
         printf("Error: Negative number passed to factorial.\n");
