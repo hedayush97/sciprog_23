@@ -5,6 +5,7 @@ int i2 = 200;
 float fl1 = 1.11;
 float fl2 = 2.2222;
 
+// Print the 2 nuumbers as float and integers
 printf("Two integers %d %d and two floats %.2f %.4f\n", i1, i2, fl1, fl2);
 
 return 0;
