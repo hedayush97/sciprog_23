@@ -1,4 +1,0 @@
-The code to compile the 2 file is -
-
-gcc -o ques2 ques2.c -lm -Wall
-./ques2
