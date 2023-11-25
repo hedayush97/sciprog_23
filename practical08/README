@@ -1,3 +1,9 @@
+In this practical, we will workk on recursive functions.
+
+We will do the following things - 
+1. Use the pseudo code to construct an iterative function.
+2. Construct a recursive function to do the same, using the formula below the pseudo code.
+
 To compile the code, run the following command:
 gcc -o out gcd.c -Wall
 ./out
