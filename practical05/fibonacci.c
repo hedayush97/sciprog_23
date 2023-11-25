@@ -10,6 +10,7 @@ int main() {
     int n, i;
     int f0 = 0, f1 = 1;
 
+    // enter information from the user
     printf("Enter a positive integer\n");
     scanf("%d", &n);
 
@@ -18,6 +19,7 @@ int main() {
         exit(1);
     }
 
+    // Print the fibonacci series
     printf("The Fibonacci sequence is: \n");
     printf("%d, %d, ", f0, f1);
 
@@ -34,6 +36,7 @@ int main() {
     return 0;
 }
 
+// Function for fibonacci
 void fibonacci(int *a, int *b) {
     int next;
     next = *a + *b;

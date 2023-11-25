@@ -29,6 +29,7 @@ void freearray(int *array){
     free(array);
 }
 
+// Call all the functions
 int main(){
     int n, *a;
     printf("Size of the array:\n");
