@@ -1,3 +1,15 @@
+In this practical, we shall use dynamically allocated arrays.
+
+Basic C Pointers and dynamic memory allocation:
+1. Write a function allocatearray() that takes an integer as an argument and returns a
+pointer to an allocated memory block of that many integers.
+2. Write a function fillwithones() that takes a pointer to an array of integers and fills every
+cell of the array with a one. What other argument do you need to pass to this function?
+3. Write a function printarray() that takes a pointer to an array of integers and prints its
+elements on screen.
+4. Write a function to free the allocated memory.
+5. Call all these functions into a main block. Run with different array sizes.
+
 To compile the 2 files, us the following codes - 
 gcc -c finde finde.c -wall
 ./finde
