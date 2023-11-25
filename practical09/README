@@ -1,0 +1,4 @@
+Practial9 folder contains c codes on double pointers and checking if the matrix is magic square or not.
+To compile the c files use the below commands:
+1. gcc -o ms magic_square_stub.c -std=c99 -Wall
+./ms
